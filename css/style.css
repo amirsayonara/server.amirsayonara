@@ -1,0 +1,338 @@
+@font-face {
+	font-family: Gothic;
+	src: url('../font/Gothic/GOTHIC.TTF') format('truetype');
+}
+@font-face {
+	font-family: Arimo;
+	src: url('../font/Arimo/Arimo-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: Franklin;
+	src: url('../font/Franklin/FRABK.TTF') format('truetype');
+}
+* {
+	font-family: 'Gothic', sans-serif;
+}
+body {
+    background:url('../images/bg2.jpg') no-repeat 62% 90%;
+    background-size: cover;
+    text-align: center;
+}
+
+/*--header--*/
+
+li {
+	display: block;
+}
+
+.header-w3l{
+    margin: 75px;
+}
+.header-w3l h1{
+	font-size:3em;
+    color:white;
+    letter-spacing: 6px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.w32 {
+	color:white;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+/*--//header--*/
+
+/*--main--*/
+
+.main-content-agile {
+    margin: 20px 0px;
+}
+.sub-main-w3 input[type="text"],.sub-main-w3 input[type="password"] {
+    outline: none;
+    font-size: 1.1em;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    margin: 0 0 15px 0;
+    background: none;
+    border-bottom: 2px solid #eee;
+    width: 20%;
+    color: white;
+    font-weight: 600;
+}
+.sub-main-w3 input[type="submit"] {
+	background: url('../images/arrow.png') no-repeat center;
+    height: 67px;
+    outline: none;
+    margin-top: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #fff;
+    width: 67px;
+}
+.terro_kaluarrah {
+	background: url('../images/arrow.png') no-repeat center;
+	-webkit-transform: rotate(30deg);
+	transform: rotate(180deg);
+	outline: none;
+	height: 67px;
+	width: 67px;
+	border-radius: 50%;
+	cursor: pointer;
+	background-color: transparent;
+	color: #fff;
+	border: 2px solid #fff;
+}
+a {
+	cursor:pointer;
+	text-decoration:underline;
+}
+a:hover {
+	text-decoration: none;
+}
+td, th {
+	border: 1px solid #efe5e5;
+	border-radius: 5px;
+	color: #fff;
+}
+th {
+	height: 35px;
+	padding: 5px;
+}
+td {
+	text-align: left;
+	padding: 5px;
+}
+table {
+	margin: auto;
+	border: 1px solid #efe5e5;
+	border-radius: 5px;
+}
+tr {
+	margin: 0px;
+}
+/*--//main--*/
+
+/*--footer--*/
+.footer {
+    padding: 2.3em 0 0 0;
+}
+.footer p {
+    font-size: .9em;
+    color: white;
+	font-size: 15px;
+}
+.footer p a {
+    color: #d20962;
+}
+.footer p a:hover {
+   text-decoration:underline;
+}
+/*--//footer--*/
+
+/*--placeholder-color--*/
+
+::-webkit-input-placeholder{
+	color:rgba(255, 255, 255);
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color:rgba(255, 255, 255);
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color:rgba(255, 255, 255);
+}
+
+:-ms-input-placeholder {  
+	color:rgba(255, 255, 255);
+}
+/*--//placeholder-color--*/
+
+/*--responsive--*/
+
+@media(max-width:1440px){
+	
+}
+@media (max-width:1366px){
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"]{
+		width:22%;
+	}
+}	
+@media (max-width:1280px){
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:23%;
+	}
+}
+@media (max-width:1024px){
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"]{
+		width:28%;
+	}
+}
+@media (max-width:991px){
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:29%;
+	}
+}
+@media(max-width:800px){
+	.header-w3l h1 {
+		font-size: 39px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:34%;
+	}
+}
+@media(max-width:768px){
+	.header-w3l h1 {
+		font-size: 36px;
+	}
+	.main-content-agile {
+		margin: 20px 0px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:36%;
+	}
+}
+@media(max-width:736px){
+	.header-w3l h1 {
+		font-size: 34px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:40%;
+		font-size: 0.9em;
+	}
+	.main-content-agile {
+		margin: 20px 0px;
+	}
+}
+@media(max-width:667px){
+	.header-w3l h1 {
+		font-size: 28px;
+	}
+	.main-content-agile {
+		margin: 20px 0px;
+	}
+	.header-w3l{
+		margin: 38px;
+	}
+}
+@media(max-width:640px){
+	.header-w3l h1 {
+		font-size: 26px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:42%;
+		font-size: 0.9em;
+	}
+}
+@media(max-width:600px){
+	.header-w3l h1 {
+		font-size: 27px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:46%;
+		font-size: 0.9em;
+	}
+	.header-w3l {
+		margin: 52px;
+	}
+}
+@media(max-width:568px){
+	.header-w3l h1 {
+		font-size: 30px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:48%;
+		font-size: 0.9em;
+	}
+	.header-w3l {
+		margin: 24px 0px;
+	}
+}
+@media(max-width:480px){
+	.header-w3l{
+		margin:48px 0px;
+	}
+	.header-w3l h1 {
+		font-size: 21px;
+		letter-spacing: 3px;
+		font-weight: 400;
+		line-height: 0.7em;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:56%;
+		font-size: 0.9em;
+	}
+	.footer p{
+		line-height: 28px;
+	}
+}
+@media(max-width:414px){
+	.header-w3l h1 {
+		font-size: 28px;
+		line-height: 0.7em;
+		letter-spacing: 1px;
+	}
+	.main-content-agile {
+		margin: 20px 0px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:60%;
+		font-size: 0.9em;
+	}
+	.footer p{
+		line-height: 28px;
+	}
+	.footer {
+		padding: 4.3em 0 0;
+	}
+}
+@media(max-width:384px){
+	.header-w3l h1 {
+		font-size: 24px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:64%;
+		font-size: 0.9em;
+	}
+	.footer p{
+		line-height: 28px;
+	}
+}
+@media(max-width:375px){
+	.footer p{
+		line-height: 28px;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:68%;
+		font-size: 0.9em;
+	}
+	.footer {
+		padding: 3em 0 0em;
+	}
+}
+@media(max-width:320px){
+	.header-w3l {
+		margin: 31px 0px;
+	}
+	.header-w3l h1 {
+		font-size: 18px;
+		font-weight: 500;
+		letter-spacing: 3px;
+		line-height: 1.7em;
+	}
+	.sub-main-w3 input[type="password"],.sub-main-w3 input[type="text"] {
+		width:68%;
+		font-size: 0.9em;
+	}
+	.footer p{
+		line-height: 28px;
+		font-size: 0.9em;
+	}
+	.main-content-agile {
+		margin: 20px 0px;
+	}
+	 .footer {
+		padding: 0em 0 0em;
+	}
+}
+/*--//responsive--*/
